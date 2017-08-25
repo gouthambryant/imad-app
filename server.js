@@ -6,18 +6,6 @@ var app = express();
 app.use(morgan('combined'));
 
 
-var article one ={
-    title:'article one'
-    heading:'article one'
-    date:'25th august,2017'
-    content:     
-           <p>
-                 'this is the actuall content (i.e) the body message .i like imad too much and i too intrested in doing the practical modules done here.also iam a little bit of writiing code in html and css and all.'
-                 </p>
-                 <p>
-                    'now i am having my projrct hour and more things to study here in my 5th semester and college is going on just fine'
-                 </p>
-};
 
 
 app.get('/', function (req, res) {
